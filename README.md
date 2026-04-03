@@ -7,7 +7,7 @@ Passos para subir os recursos corretamente:
 
 - Com a chave criada, coloque o nome dela no parâmetro `Ec2KeyPairName`, dentro do arquivo jupyerfinal.yaml
 
-- Altere o nome dos buckets!!!!!
+- Altere o nome dos buckets!!!!! (AWS não aceita nomes iguais de bucket)
 
 - Rode o comando (no local em que está o arquivo .yaml)
 ```
