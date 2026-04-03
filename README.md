@@ -1,5 +1,7 @@
 Passos para subir os recursos corretamente:
 
+- Na Cloud: Start Lab > AWS Details > Colocar as credenciais no arquivo .aws (Procure no seu '/Users/...') > Salvar
+
 - Crie uma chave PEM dentro do console da AWS 
     - EC2 > Pares de chaves > Nome de exemplo: urubu100-key
 
@@ -7,8 +9,7 @@ Passos para subir os recursos corretamente:
 
 - Altere o nome dos buckets!!!!!
 
-
-- Rode o comando
+- Rode o comando (no local em que está o arquivo .yaml)
 ```
 aws cloudformation create-stack --stack-name last-mile-optimization-stack --template-body file://cloud-formation.yaml
 ```
