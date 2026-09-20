@@ -306,7 +306,7 @@ Resources:
           
           # 3. Instalar dependências da API (instalação explícita para evitar falhas silenciosas)
           cd /opt/tcc-app/api
-          pip3 install fastapi uvicorn pydantic scikit-learn xgboost pandas
+          pip3 install fastapi uvicorn pydantic scikit-learn xgboost pandas python-multipart
           
           # 4. Criar o serviço da API para rodar em background
           touch /lib/systemd/system/tcc-api.service
