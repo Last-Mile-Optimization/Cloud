@@ -11,7 +11,7 @@ Passos para subir os recursos corretamente:
 
 - Rode o comando (no local em que está o arquivo .yaml)
 ```
-aws cloudformation create-stack --stack-name last-mile-optimization-stack --template-body file://cloud-formation.yaml
+aws cloudformation create-stack --stack-name ecommerce-optimization-stack --template-body file://cloud-formation.yaml
 ```
 
 - Vá no console em **Cloudformation** > **Pilhas** e verifique se a stack está com o status **CREATE_COMPLETE**
@@ -19,7 +19,7 @@ aws cloudformation create-stack --stack-name last-mile-optimization-stack --temp
 
 - Caso o arquivo seja alterado: Atualize a stack com o comando abaixo:
 ```
-aws cloudformation update-stack --stack-name last-mile-optimization-stack --template-body file://cloud-formation.yaml
+aws cloudformation update-stack --stack-name ecommerce-optimization-stack --template-body file://cloud-formation.yaml
 ```
 
 - Vá no console em **Cloudformation** > **Pilhas** e verifique se a stack está com o status **UPDATE_COMPLETE**
